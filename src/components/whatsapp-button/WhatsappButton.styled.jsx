@@ -33,7 +33,7 @@ export const WhatsappButtonContainer = styled.a`
   z-index: 1000;
   animation: 5s ease-in 5s infinite ${shake};
 
-  @media screen and (max-width: 475px) {
+  @media screen and (max-width: 425px) {
     bottom: 25px;
     right: 25px;
     width: 50px;
@@ -82,7 +82,7 @@ export const Message = styled.div`
   opacity: 0;
   transition: opacity 0.5s ease;
 
-  @media screen and (max-width: 475px) {
+  @media screen and (max-width: 425px) {
     right: 65px;
     height: 35px;
   }

@@ -25,7 +25,21 @@ export const FooterGrid = styled.div`
   }
 `;
 
-export const FooterLogo = styled.div``;
+export const FooterLogo = styled.div`
+  width: 200px;
+  background: var(--body-bg);
+  border-radius: 50%;
+  overflow: hidden;
+
+  @media screen and (max-width: 425px) {
+    width: 150px;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+`;
 
 export const FooterList = styled.ul`
   display: flex;

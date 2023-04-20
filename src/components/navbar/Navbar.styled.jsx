@@ -17,12 +17,19 @@ export const StyledNavBar = styled.nav`
 
 export const LogoContainer = styled.div`
   width: 150px;
-  height: 60px;
-  border: 1px solid #ccc;
   border-radius: 99px;
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media screen and (max-width: 425px) {
+    width: 100px;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
 `;
 
 export const Navigation = styled.ul`

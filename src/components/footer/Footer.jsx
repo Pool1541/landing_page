@@ -6,13 +6,16 @@ import {
   FooterList,
   Copyright,
 } from './Footer.styled';
+import logo from '../../assets/images/logo.png';
 
 export default function Footer() {
   return (
     <StyledFooter>
       <Container>
         <FooterGrid>
-          <FooterLogo>LOGO</FooterLogo>
+          <FooterLogo>
+            <img src={logo} alt='logo de webcrafters' />
+          </FooterLogo>
           <FooterList>
             <li>
               <h3>Planes</h3>
