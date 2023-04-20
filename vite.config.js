@@ -5,4 +5,7 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   plugins: [react()],
   base: "https://pool1541.github.io/landing_page",
+  build: {
+    outDir: "build",
+  },
 });
