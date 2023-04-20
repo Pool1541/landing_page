@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import { Container } from "../Container.styled";
+import styled from 'styled-components';
+import { Container } from '../Container.styled';
 
 export const Section = styled.section`
   width: 100%;
@@ -56,7 +56,7 @@ export const ImageContainer = styled.div`
   overflow-y: hidden;
 
   &::after {
-    content: "";
+    content: '';
     width: 100%;
     height: 100%;
     background: linear-gradient(90deg, #d7d8d4 0%, #e2ecf300 100%);

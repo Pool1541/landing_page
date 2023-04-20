@@ -1,7 +1,7 @@
-import { Container } from "../Container.styled";
-import quote from "../../assets/images/quote.png";
-import { QuoteImage, QuoteText } from "./Quote.styled";
-import styled from "styled-components";
+import { Container } from '../Container.styled';
+import quote from '../../assets/images/quote.png';
+import { QuoteImage, QuoteText } from './Quote.styled';
+import styled from 'styled-components';
 
 const QuoteContainer = styled(Container)`
   margin-top: 50px;
@@ -27,7 +27,7 @@ export default function Quote() {
         <p>Lorem</p>
       </QuoteText>
       <QuoteImage>
-        <img src={quote} alt="quote" />
+        <img src={quote} alt='quote' />
       </QuoteImage>
     </QuoteContainer>
   );

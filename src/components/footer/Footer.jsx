@@ -1,11 +1,11 @@
-import { Container } from "../Container.styled";
+import { Container } from '../Container.styled';
 import {
   FooterGrid,
   StyledFooter,
   FooterLogo,
   FooterList,
   Copyright,
-} from "./Footer.styled";
+} from './Footer.styled';
 
 export default function Footer() {
   return (

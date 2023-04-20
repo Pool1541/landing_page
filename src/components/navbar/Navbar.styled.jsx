@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const StyledNavBar = styled.nav`
   width: 100%;
@@ -44,7 +44,7 @@ export const Navigation = styled.ul`
     left: 0;
     transition: transform 0.3s ease-out;
     transform: ${({ active }) =>
-      active ? "translateX(0)" : "translateX(100vw)"};
+      active ? 'translateX(0)' : 'translateX(100vw)'};
   }
 `;
 

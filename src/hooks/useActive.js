@@ -1,14 +1,14 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState } from 'react';
 
 export default function useActive() {
   const [active, setActive] = useState(false);
-  const body = document.querySelector("body");
+  const body = document.querySelector('body');
 
   function toggleOverflow() {
     if (active) {
-      body.style.overflow = "hidden";
+      body.style.overflow = 'hidden';
     } else {
-      body.style.overflow = "auto";
+      body.style.overflow = 'auto';
     }
   }
 

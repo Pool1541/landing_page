@@ -2,14 +2,14 @@ import {
   CardImageContainer,
   CardTextContainer,
   StyledCard,
-} from "./Card.styled";
-import image from "../../assets/images/pawshop.png";
+} from './Card.styled';
+import image from '../../assets/images/pawshop.png';
 
 export default function Card() {
   return (
     <StyledCard>
       <CardImageContainer>
-        <img src={image} alt="card image" />
+        <img src={image} alt='card image' />
       </CardImageContainer>
       <CardTextContainer>
         <h3>Lorem ipsum dolor sit.</h3>

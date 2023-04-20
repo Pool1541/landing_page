@@ -1,13 +1,13 @@
-import { Container } from "../Container.styled";
-import { Subtitle } from "../Subtitle";
-import Section from "../section/Section";
+import { Container } from '../Container.styled';
+import { Subtitle } from '../Subtitle';
+import Section from '../section/Section';
 import {
   Feature,
   FeatureDescription,
   FeaturesContainer,
   FeatureIcon,
-} from "./Features.styled";
-import { features } from "../../content/features.content";
+} from './Features.styled';
+import { features } from '../../content/features.content';
 
 export default function Features() {
   return (

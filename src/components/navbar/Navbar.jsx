@@ -1,8 +1,8 @@
-import { useState } from "react";
-import BurgerButton from "../burger-button/BurgerButton";
-import Button from "../button/Button";
-import { Link, LogoContainer, Navigation, StyledNavBar } from "./Navbar.styled";
-import useActive from "../../hooks/useActive";
+import { useState } from 'react';
+import BurgerButton from '../burger-button/BurgerButton';
+import Button from '../button/Button';
+import { Link, LogoContainer, Navigation, StyledNavBar } from './Navbar.styled';
+import useActive from '../../hooks/useActive';
 
 export default function Navbar() {
   const { active, toggleState, disabled } = useActive();

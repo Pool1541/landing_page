@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Button = styled.button`
   position: relative;
@@ -16,14 +16,14 @@ export const Button = styled.button`
 
   div:nth-child(1) {
     transform: ${({ active }) =>
-      active ? "rotate(-45deg) translate(-6px, 6px)" : "none"};
+      active ? 'rotate(-45deg) translate(-6px, 6px)' : 'none'};
   }
   div:nth-child(2) {
-    opacity: ${({ active }) => (active ? "0" : "1")};
+    opacity: ${({ active }) => (active ? '0' : '1')};
   }
   div:nth-child(3) {
     transform: ${({ active }) =>
-      active ? "rotate(45deg) translate(-8px, -7px)" : "none"};
+      active ? 'rotate(45deg) translate(-8px, -7px)' : 'none'};
   }
 
   @media screen and (max-width: 767px) {

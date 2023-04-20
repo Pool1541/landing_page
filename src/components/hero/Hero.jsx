@@ -3,9 +3,9 @@ import {
   Section,
   StyledHero,
   TextContainer,
-} from "./Hero.styled";
-import Button from "../button/Button";
-import image from "../../assets/images/hero.jpg";
+} from './Hero.styled';
+import Button from '../button/Button';
+import image from '../../assets/images/hero.jpg';
 
 export default function Hero() {
   return (
@@ -23,7 +23,7 @@ export default function Hero() {
         </TextContainer>
       </StyledHero>
       <ImageContainer>
-        <img src={image} alt="Backdrop"></img>
+        <img src={image} alt='Backdrop'></img>
       </ImageContainer>
     </Section>
   );

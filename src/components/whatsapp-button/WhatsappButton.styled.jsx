@@ -1,4 +1,4 @@
-import styled, { keyframes } from "styled-components";
+import styled, { keyframes } from 'styled-components';
 
 const expand = keyframes`
   to {
@@ -42,7 +42,7 @@ export const WhatsappButtonContainer = styled.a`
 
   &::after,
   &::before {
-    content: "";
+    content: '';
     position: absolute;
     width: 100%;
     height: 100%;
@@ -88,7 +88,7 @@ export const Message = styled.div`
   }
 
   &::after {
-    content: "";
+    content: '';
     width: 20px;
     height: 20px;
     position: absolute;
