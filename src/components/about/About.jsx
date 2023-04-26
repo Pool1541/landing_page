@@ -7,7 +7,7 @@ import {
   GridContainer,
   SubtitleContaiener,
 } from './About.styled';
-import wave from '../../assets/images/wave-bg.png';
+import wave from '../../assets/images/wave-bg.webp';
 import Quote from '../quote/Quote';
 
 export default function About() {

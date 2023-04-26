@@ -5,7 +5,7 @@ import {
   TextContainer,
 } from './Hero.styled';
 import Button from '../button/Button';
-import image from '../../assets/images/hero.jpg';
+import image from '../../assets/images/hero.webp';
 
 export default function Hero() {
   return (

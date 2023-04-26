@@ -3,7 +3,7 @@ import {
   CardTextContainer,
   StyledCard,
 } from './Card.styled';
-import image from '../../assets/images/pawshop.png';
+import image from '../../assets/images/pawshop.webp';
 
 export default function Card() {
   return (
