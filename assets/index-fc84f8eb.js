@@ -92,7 +92,7 @@ Error generating stack: `+i.message+`
 
   p {
   }
-`,Q1="https://pool1541.github.io/landing_page/assets/pawshop-1ee5de56.png";function uo(){return q(H1,{children:[k(V1,{children:k("img",{src:Q1,alt:"card image"})}),q(W1,{children:[k("h3",{children:"Lorem ipsum dolor sit."}),k("p",{children:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, rem!"})]})]})}const Y1=U.section`
+`,Q1="https://pool1541.github.io/landing_page/assets/pawshop-e62ac4d0.webp";function uo(){return q(H1,{children:[k(V1,{children:k("img",{src:Q1,alt:"card image"})}),q(W1,{children:[k("h3",{children:"Lorem ipsum dolor sit."}),k("p",{children:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, rem!"})]})]})}const Y1=U.section`
   width: 100%;
   padding: 100px 0;
   max-width: 2000px;
@@ -126,7 +126,7 @@ Error generating stack: `+i.message+`
   right: 0;
   top: -180px;
   z-index: 1;
-`,Z1="https://pool1541.github.io/landing_page/assets/wave-bg-605f38d4.png",J1="https://pool1541.github.io/landing_page/assets/quote-48a6ba94.png",q1=U.div`
+`,Z1="https://pool1541.github.io/landing_page/assets/wave-bg-a4cdec1a.webp",J1="https://pool1541.github.io/landing_page/assets/quote-48a6ba94.png",q1=U.div`
   width: 50%;
   font-style: italic;
   font-size: clamp(1rem, 3.5vw, 1.5rem);
@@ -324,7 +324,7 @@ Error generating stack: `+i.message+`
   font-weight: 500;
   padding: ${({big:e})=>e?"15px 30px":"10px 24px"};
   border-radius: 99px;
-`;function md({children:e,big:t,handleClick:n}){return k(Ph,{big:t,onClick:n,children:e})}const zh="https://pool1541.github.io/landing_page/assets/hero-6bf7ce05.jpg";function Nh(){return q(xh,{children:[k(Ch,{children:q(Eh,{children:[k("h1",{children:"Lorem ipsum dolor sit."}),k("p",{children:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus facere amet quibusdam commodi reprehenderit nulla, ab maxime, ad quod perferendis adipisci iure nemo repellendus vitae repellat placeat impedit, laboriosam excepturi!"}),k(md,{big:!0,children:"DÉCOUVRIR"})]})}),k(_h,{children:k("img",{src:zh,alt:"Backdrop"})})]})}const $h=U.main``;function Th({children:e}){return k($h,{children:e})}const Lh=U.button`
+`;function md({children:e,big:t,handleClick:n}){return k(Ph,{big:t,onClick:n,children:e})}const zh="https://pool1541.github.io/landing_page/assets/hero-585e317e.webp";function Nh(){return q(xh,{children:[k(Ch,{children:q(Eh,{children:[k("h1",{children:"Lorem ipsum dolor sit."}),k("p",{children:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus facere amet quibusdam commodi reprehenderit nulla, ab maxime, ad quod perferendis adipisci iure nemo repellendus vitae repellat placeat impedit, laboriosam excepturi!"}),k(md,{big:!0,children:"DÉCOUVRIR"})]})}),k(_h,{children:k("img",{src:zh,alt:"Backdrop"})})]})}const $h=U.main``;function Th({children:e}){return k($h,{children:e})}const Lh=U.button`
   position: relative;
   display: none;
   align-items: center;
